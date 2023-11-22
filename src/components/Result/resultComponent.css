@@ -1,0 +1,43 @@
+.box {
+    width: 100%;
+    background-color: var(--very-dark-cyan);
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 0;
+    padding: 2.5em 1.5em 1.5em 1.5em;
+}
+
+.result {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.data {
+    margin-bottom: 1.5em;
+}
+
+.data p {
+    text-align: left;
+    color: var(--white);
+}
+
+.data p span {
+    font-size: 0.9em;
+}
+
+.dataResult p {
+    text-align: right;
+    font-size: 2em;
+    color: var(--strong-cyan);
+}
+
+.result-button {
+    background: var(--strong-cyan);
+    color: var(--very-dark-cyan);
+    width: 100%;
+}
+
+.result .result-button:disabled {
+    background: hsl(185, 89%, 25%);
+    color: var(--very-dark-cyan);
+}

@@ -1,0 +1,64 @@
+.body {
+    width: 100%;
+    border: none;
+    border-radius: 25px 25px 0 0;
+    background-color: #FFF;
+    padding: 2em;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5em;
+}
+
+label span {
+    margin-bottom: .5em;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: .3em .6em;
+    border: none;
+    border-radius: 8px;
+    text-align: right;
+    font-size: 1.5em;
+    color: var(--very-dark-cyan);
+}
+
+#amount {
+    background: url('../../assets/images/icon-dollar.svg') no-repeat scroll .8em .7em;
+    background-color: var(--very-light-grayish-cyan);
+}
+
+#pplQty {
+    background: url('../../assets/images/icon-person.svg') no-repeat scroll 15px 15px;
+    background-color: var(--very-light-grayish-cyan);
+}
+
+.buttons label {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vh;
+}
+
+.buttons label span {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: 0;
+}
+
+button {
+background: var(--very-dark-cyan);
+color: var(--white);
+font-size: 1.4em;
+padding: 8px;
+border: none;
+border-radius: 6px;
+}
+
+button:hover {
+background: var(--strong-cyan);
+color: var(--very-dark-cyan);
+}
