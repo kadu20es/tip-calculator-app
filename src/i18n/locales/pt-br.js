@@ -4,7 +4,7 @@ export default {
                 label1: "Valor da conta",
                 label2: "Selecione a gorjeta %",
                 label3: "Número de pessoas",
-                button: "Outro",
+                custom: "Outro",
                 tipAmount: "Gorjeta",
                 total: "Total",
                 person: "/ pessoa",
